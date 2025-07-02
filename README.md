@@ -120,3 +120,7 @@ Running on local URL: http://127.0.0.1:7860
 ```
 Now, just enter any news title and content to test if it's real or fake!
 
+---
+
+Main Colab Doc Link: [Link](https://colab.research.google.com/drive/1HdmNpuJdVLD1f7CG8Zykp32NbNt4Xd3N?usp=sharing) 
+
