@@ -52,6 +52,9 @@ fake-news-detection/
 │
 ├── gradio_app.py                    # Gradio UI app (main interface)
 ├── test_runner.py                   # Script to compare all model performances
+├── requirements.txt                 # Python dependencies
+├── README.md                        # Project documentation
+└── .gitattributes
 ```
 
 # 🖥️ How to Run Locally
@@ -80,9 +83,7 @@ fake-news-detection/
 │   └── submit.csv
 ├── xgb_model.pkl
 ├── xgb_vectorizer.pkl
-├── requirements.txt                 # Python dependencies
-├── README.md                        # Project documentation
-└── .gitattributes
+
 ```
 
 ## 🐍 Step 3: Create a Virtual Environment (Optional but Recommended)
