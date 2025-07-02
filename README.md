@@ -52,6 +52,69 @@ fake-news-detection/
 │
 ├── gradio_app.py                    # Gradio UI app (main interface)
 ├── test_runner.py                   # Script to compare all model performances
+```
+
+#🖥️ How to Run Locally
+
+Follow these steps to run the Fake News Detection project on your local machine.
+
+##📁 Step 1: Clone the Repository
+```bash
+git clone https://github.com/YOUR_USERNAME/fake-news-detection.git
+cd fake-news-detection
+```
+Or download the ZIP and extract it manually.
+
+##📥 Step 2: Download Required Files
+
+Since large files are not included in this repo, download them from Google Drive:
+
+👉 Download data/ folder and model files
+
+Place them like this:
+
+fake-news-detection/
+├── data/
+│   ├── train.csv
+│   ├── test.csv
+│   └── submit.csv
+├── xgb_model.pkl
+├── xgb_vectorizer.pkl
 ├── requirements.txt                 # Python dependencies
 ├── README.md                        # Project documentation
 └── .gitattributes
+
+##🐍 Step 3: Create a Virtual Environment (Optional but Recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
+```
+##📦 Step 4: Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+Also, ensure you download NLTK stopwords:
+```python
+import nltk
+nltk.download('stopwords')
+```
+##🧪 Step 5: Test Model Performance (Optional)
+
+To evaluate all models:
+```python
+python test_runner.py
+```
+##🚀 Step 6: Launch the Gradio App
+
+This opens a local web interface in your browser:
+```python
+python gradio_app.py
+```
+You’ll see something like:
+```nginx
+Running on local URL: http://127.0.0.1:7860
+```
+Now, just enter any news title and content to test if it's real or fake!
+
