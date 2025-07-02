@@ -72,7 +72,7 @@ Since large files are not included in this repo, download them from Google Drive
 👉 Download data/ folder and model files
 
 Place them like this:
-
+```
 fake-news-detection/
 ├── data/
 │   ├── train.csv
@@ -83,6 +83,7 @@ fake-news-detection/
 ├── requirements.txt                 # Python dependencies
 ├── README.md                        # Project documentation
 └── .gitattributes
+```
 
 ## 🐍 Step 3: Create a Virtual Environment (Optional but Recommended)
 
